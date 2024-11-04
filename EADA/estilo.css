@@ -1,0 +1,60 @@
+.fondo-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #ffe4e1; /* Color de fondo de la página */
+}
+
+.contenedor-inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff; /* Fondo blanco del formulario */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Ancho relativo para dispositivos móviles */
+    max-width: 400px; /* Máximo ancho del formulario */
+}
+
+.inicio-subtitulo {
+    font-size: 2.5rem;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+.descripcion-inicio {
+    font-size: 1.2rem;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.relleno-inicio {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.envio-usuario {
+    width: 100%; /* Asegura que el botón ocupe todo el ancho del contenedor */
+    max-width: 300px; /* Máximo ancho para que el botón no sea demasiado grande */
+    padding: 15px; /* Espaciado interno */
+    margin: 20px auto 0; /* Centrado horizontal */
+    border: none;
+    border-radius: 5px;
+    background-color: #ff69b4;
+    color: white;
+    font-size: 1.2rem; /* Ajusta el tamaño de fuente */
+    cursor: pointer;
+    text-align: center; /* Centra el texto dentro del botón */
+    transition: background-color 0.3s; /* Suaviza el cambio de color en hover */
+}
+
+.envio-usuario:hover {
+    background-color: rgb(158, 69, 154);
+}
